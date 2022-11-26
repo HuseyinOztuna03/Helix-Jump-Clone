@@ -32,7 +32,7 @@ public class Ball : MonoBehaviour
         }
         else if (materialName == "Last Ring (Instance)")
         {
-            
+            //load new level
         }
     }
 }
