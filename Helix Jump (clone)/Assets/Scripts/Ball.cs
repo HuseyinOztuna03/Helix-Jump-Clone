@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Ball : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class Ball : MonoBehaviour
 
     public GameObject splashPrefab;
 
+    public Image gameoverscreen;
+
     private void OnCollisionEnter(Collision collision)
     {
         rb.velocity = Vector3.up * jumpForce;
@@ -16,7 +19,7 @@ public class Ball : MonoBehaviour
         splash.transform.SetParent(collision.gameObject.transform);
 
         string materialName = collision.gameObject.GetComponent<MeshRenderer>().material.name;
-        Debug.Log(materialName);
+        //Debug.Log(materialName);
 
         if(materialName == "Safe Color (Instance)")
         {
@@ -24,7 +27,8 @@ public class Ball : MonoBehaviour
         }
         else if (materialName == "Unsafe Color (Instance)")
         {
-
+            Time.timeScale = 0f;
+            gameoverscreen.gameObject.SetActive(true);
         }
         else if (materialName == "Last Ring (Instance)")
         {
