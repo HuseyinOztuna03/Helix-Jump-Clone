@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Ball : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class Ball : MonoBehaviour
     public float jumpForce;
 
     public GameObject splashPrefab;
+
+    public GameManager gameManager;
 
     public Image gameoverscreen;
 
@@ -27,12 +30,16 @@ public class Ball : MonoBehaviour
         }
         else if (materialName == "Unsafe Color (Instance)")
         {
+            PlayerPrefs.SetInt("score", 0);
             Time.timeScale = 0f;
             gameoverscreen.gameObject.SetActive(true);
         }
         else if (materialName == "Last Ring (Instance)")
         {
-            //load new level
+            PlayerPrefs.SetInt("highscore", gameManager.score);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            gameManager.score = PlayerPrefs.GetInt("highscore");
+            
         }
     }
 }

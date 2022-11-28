@@ -6,11 +6,14 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    private int score, highscore;
+    public int score, highscore;
 
     public Text scoreText, highscoreText;
-
-
+    private void Start()
+    {
+        //PlayerPrefs.DeleteAll();
+        score = PlayerPrefs.GetInt("score");
+    }
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
