@@ -523,6 +523,26 @@ PrefabInstance:
       propertyPath: ball
       value: 
       objectReference: {fileID: 826889548}
+    - target: {fileID: 3123608096089361023, guid: 2e55e93fdcafd6541aadf182ad63be64, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3123608096972417361, guid: 2e55e93fdcafd6541aadf182ad63be64, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3123608097080572731, guid: 2e55e93fdcafd6541aadf182ad63be64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3484015294609655940, guid: 2e55e93fdcafd6541aadf182ad63be64, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e771513b87f05104f9f893ae0a131d28, type: 2}
+    - target: {fileID: 3484015296344939246, guid: 2e55e93fdcafd6541aadf182ad63be64, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e771513b87f05104f9f893ae0a131d28, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e55e93fdcafd6541aadf182ad63be64, type: 3}
 --- !u!1001 &1779891057
