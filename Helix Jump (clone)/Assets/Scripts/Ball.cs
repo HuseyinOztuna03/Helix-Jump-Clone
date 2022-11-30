@@ -11,8 +11,6 @@ public class Ball : MonoBehaviour
 
     public GameObject splashPrefab;
 
-    public GameManager gameManager;
-
     public Image gameoverscreen;
 
     private void OnCollisionEnter(Collision collision)
@@ -30,16 +28,12 @@ public class Ball : MonoBehaviour
         }
         else if (materialName == "Unsafe Color (Instance)")
         {
-            PlayerPrefs.SetInt("score", 0);
             Time.timeScale = 0f;
             gameoverscreen.gameObject.SetActive(true);
         }
         else if (materialName == "Last Ring (Instance)")
         {
-            PlayerPrefs.SetInt("highscore", gameManager.score);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            gameManager.score = PlayerPrefs.GetInt("highscore");
-            
         }
     }
 }
