@@ -28,6 +28,7 @@ public class Ball : MonoBehaviour
         }
         else if (materialName == "Unsafe Color (Instance)")
         {
+            PlayerPrefs.SetInt("score", 0);
             Time.timeScale = 0f;
             gameoverscreen.gameObject.SetActive(true);
         }

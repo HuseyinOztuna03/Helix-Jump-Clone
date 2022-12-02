@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
     {
         score += ringScore;
         scoreText.text = score.ToString();
+        PlayerPrefs.SetInt("score", score);
     }
 
     void Update()
