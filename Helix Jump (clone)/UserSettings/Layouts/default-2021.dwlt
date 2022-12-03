@@ -127,7 +127,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 160
+  controlID: 46
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -178,7 +178,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 129
+  controlID: 40
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -326,7 +326,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 130
+  controlID: 154
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -352,7 +352,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 131
+  controlID: 155
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -409,7 +409,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -25330
+  m_LastSelectedObjectID: -2832
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -451,21 +451,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sprites
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Sprites
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\husey\Desktop\Helix-Jump-Clone\Helix Jump (clone)
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0e5d0000
-    m_LastClickedID: 23822
+    m_SelectedIDs: 0a5d0000
+    m_LastClickedID: 23818
     m_ExpandedIDs: 00000000005d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -622,23 +622,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 1c5a0000
+      m_SelectedIDs: 205d0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 3c9dffff3e9effffea9effff429fffff34a4ffffe2a5ffff1aa6ffff9cb7fffff2b7ffff48b8ffff9eb8ffff26b9ffff30c7ffff86c7ffff44c9ffffc8e1ffff32fbffff
+      m_ExpandedIDs: c4ecffffcef3ffff56f7ffff32fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Ring 4
-        m_OriginalName: Ring 4
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -18446
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 9}
       m_SearchString: 
@@ -908,7 +908,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 0.00000047683716, y: 0, z: -0.00000071525574}
     speed: 2
-    m_Value: {x: 0.00000050663937, y: 0.0000007863795, z: -0.00000071525574}
+    m_Value: {x: 0.00000047683716, y: 0, z: -0.00000071525574}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -957,11 +957,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.7157346, y: -0.02469732, z: 0.02535821, w: -0.69748795}
     speed: 2
-    m_Value: {x: -0.7156892, y: -0.025743287, z: 0.02643154, w: -0.6974437}
+    m_Value: {x: -0.71572804, y: -0.024697093, z: 0.025357977, w: -0.6974816}
   m_Size:
     m_Target: 9.141276
     speed: 2
-    m_Value: 9.572017
+    m_Value: 9.141276
   m_Ortho:
     m_Target: 0
     speed: 2
