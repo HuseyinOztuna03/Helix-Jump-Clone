@@ -26,7 +26,7 @@ public class Ball : MonoBehaviour
         {
 
         }
-        else if (materialName == "Unsafe Color (Instance)")
+        else if (materialName == "Unsafe Color (Instance)" || materialName ==  "Unsafe Color 1 (Instance)" || materialName == "Unsafe Color 2 (Instance)")
         {
             PlayerPrefs.SetInt("score", 0);
             Time.timeScale = 0f;
