@@ -28,7 +28,7 @@ public class Ball : MonoBehaviour
             gameoverscreen.gameObject.SetActive(true);
         }
         else if (materialName == "Last Ring (Instance)")
-        {
+        {   
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
