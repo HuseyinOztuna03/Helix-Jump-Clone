@@ -12,7 +12,6 @@ public class Ring : MonoBehaviour
         gameManager = GameObject.FindObjectOfType<GameManager>();
     }
 
-
     void Update()
     {
         if (transform.position.y + 12.5f >= ball.position.y)

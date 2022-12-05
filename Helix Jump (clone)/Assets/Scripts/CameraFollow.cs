@@ -8,11 +8,11 @@ public class CameraFollow : MonoBehaviour
     public Transform ball;
     private Vector3 remainder;
     public float smoothness;
+
     void Start()
     {
         remainder = transform.position - ball.position;
     }
-
 
     void  FixedUpdate()
     {

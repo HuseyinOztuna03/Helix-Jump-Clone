@@ -20,13 +20,8 @@ public class Ball : MonoBehaviour
         splash.transform.SetParent(collision.gameObject.transform);
 
         string materialName = collision.gameObject.GetComponent<MeshRenderer>().material.name;
-        //Debug.Log(materialName);
 
-        if(materialName == "Safe Color (Instance)")
-        {
-
-        }
-        else if (materialName == "Unsafe Color (Instance)" || materialName ==  "Unsafe Color 1 (Instance)" || materialName == "Unsafe Color 2 (Instance)")
+        if (materialName == "Unsafe Color (Instance)" || materialName ==  "Unsafe Color 1 (Instance)" || materialName == "Unsafe Color 2 (Instance)")
         {
             PlayerPrefs.SetInt("score", 0);
             Time.timeScale = 0f;
